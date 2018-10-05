@@ -1,3 +1,3 @@
 print("Hello", "World")
-print("Hello", "World")
-print("Hello", "World", sep=":", end="/")
+print("Dai tatao mag swim si ikay")
+print ("{} {}".format("IKAY","RAOT ANG PAMAYO"))
