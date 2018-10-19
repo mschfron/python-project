@@ -1,4 +1,4 @@
-import math
+import math import sqrt
 
 
  
@@ -19,3 +19,11 @@ def triangle ( a, b, c)
     total = sum (float(k) int ("a") + int ("b") + int ("c") for k in data.split(",")))
     return
     
+def triangle_perimeter(a,b,c):
+    return a+b+c 
+
+def triangle_heronsarea(a,b,c):
+    s = triangle_perimeter(a,b,c) /2
+
+    area = sqrt(s * (s-a)*(s-b)*(s-c)) 
+    return area
